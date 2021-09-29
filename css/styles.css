@@ -1,15 +1,18 @@
 body {
-  max-width: 1000px;
-  margin: 10px auto;
+  margin: 0px;
 }
 
 .header-sticky {
+  background-color: white;
   position: sticky;
   top: 0;
+}
+
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 .hamburger-button {
@@ -51,4 +54,32 @@ body {
 
 .current {
   text-decoration: underline !important;
+}
+
+.full-bleed {
+  margin-left: calc(50% - 50vw);
+}
+
+.content {
+  padding: 10px;
+}
+
+footer {
+  background-color: #99adc2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
 }

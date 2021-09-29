@@ -1,5 +1,12 @@
 .home-hero {
   object-fit: cover;
   width: 100vw;
-  margin-left: calc(50% - 50vw);
+}
+
+.projects {
+  background-color: #e5eaef;
+}
+
+.hello {
+  background-color: #ccd6e0;
 }
