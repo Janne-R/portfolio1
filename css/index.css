@@ -5,8 +5,14 @@
 
 .projects {
   background-color: #e5eaef;
+  padding-bottom: 45px;
 }
 
 .hello {
   background-color: #ccd6e0;
+}
+
+.illustration {
+  width: 100%;
+  margin-top: -50px;
 }
