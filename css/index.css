@@ -4,15 +4,42 @@
 }
 
 .projects {
-  background-color: #e5eaef;
+  background-color: var(--color-light);
   padding-bottom: 45px;
 }
 
 .hello {
-  background-color: #ccd6e0;
+  background-color: var(--color-medium);
 }
 
 .illustration {
   width: 100%;
   margin-top: -50px;
+  margin-right: 10px;
+}
+
+.bg-img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 220px;
+  display: flex;
+  align-items: center;
+}
+
+.img-rainydays {
+  background-image: url(../images/lady-yellow-rain.png);
+}
+
+.img-semester-project {
+  background-image: url(../images/billetto.jpg);
+}
+
+.img-exam {
+  background-image: url(../images/jenny.jpg);
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
 }
