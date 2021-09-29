@@ -1,21 +1,23 @@
-.home-hero {
+.hero_img {
   object-fit: cover;
   width: 100vw;
 }
 
 .projects {
   background-color: var(--color-light);
-  padding-bottom: 45px;
 }
 
-.hello {
+.about {
   background-color: var(--color-medium);
+}
+
+.about_content {
+  display: inline-block;
 }
 
 .illustration {
   width: 100%;
-  margin-top: -50px;
-  margin-right: 10px;
+  margin-top: -35px;
 }
 
 .bg-img {
@@ -27,19 +29,14 @@
   align-items: center;
 }
 
-.img-rainydays {
+.img_rainydays {
   background-image: url(../images/lady-yellow-rain.png);
 }
 
-.img-semester-project {
+.img_semesterProject {
   background-image: url(../images/billetto.jpg);
 }
 
-.img-exam {
+.img_exam {
   background-image: url(../images/jenny.jpg);
-}
-
-.contact {
-  display: flex;
-  justify-content: space-around;
 }

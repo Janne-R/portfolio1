@@ -13,6 +13,11 @@ h4 {
   font-family: "Abolition", serif;
   font-weight: 500;
   text-transform: uppercase;
+  display: inline-block;
+}
+
+.logo {
+  width: 50%;
 }
 
 .header-sticky {
@@ -21,14 +26,14 @@ h4 {
   top: 0;
 }
 
-.header-content {
+.header_content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
 
-.hamburger-button {
+.button_hamburger {
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -38,11 +43,11 @@ h4 {
   font-size: x-large;
 }
 
-.nav-ul {
+.nav {
   display: none;
 }
 
-.nav-ul.show {
+.nav.show {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,12 +59,12 @@ h4 {
   margin: 0;
 }
 
-.nav-link {
+.nav_link {
   list-style-type: none;
   padding: 12px;
 }
 
-.nav-link a {
+.nav_link a {
   text-decoration-line: none;
   color: black;
   text-transform: uppercase;
@@ -69,15 +74,14 @@ h4 {
   text-decoration: underline !important;
 }
 
-.full-bleed {
-  margin-left: calc(50% - 50vw);
+.hero_content,
+.projects_content,
+.about_content,
+.contact_content {
+  padding: 25px 10px;
 }
 
-.content {
-  padding: 10px;
-}
-
-button {
+.button_cta {
   border-radius: 20px 0px 20px 0px;
   border: none;
   background-color: var(--color-dark);
@@ -87,9 +91,10 @@ button {
   display: flex;
   align-items: center;
   cursor: pointer;
+  margin: 35px 0;
 }
 
-button:hover {
+.button_cta:hover {
   border: 2px solid var(--color-dark);
   background-color: var(--color-medium);
 }
@@ -101,7 +106,7 @@ footer {
   align-items: center;
 }
 
-.footer-nav {
+.footer_nav {
   display: flex;
   flex-direction: column;
   align-items: center;

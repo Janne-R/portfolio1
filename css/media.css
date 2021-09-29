@@ -1,5 +1,5 @@
 @media (min-width: 480px) {
-  .projects-list {
+  .projects_list {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 14px;
@@ -7,35 +7,50 @@
 }
 
 @media (min-width: 768px) {
-  .hero {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: 10px;
-  }
-
-  .home-hero {
-    width: 50vw;
-  }
-
-  .header-content,
-  .content {
+  .header_content,
+  .projects_content,
+  .hero,
+  .about_content,
+  .contact_content {
     max-width: 1000px;
     margin: auto;
   }
 
-  .hamburger-button {
+  .hero {
+    display: flex;
+  }
+
+  .hero_img {
+    width: 50%;
+    margin-right: 25px;
+  }
+
+  .button_hamburger {
     display: none;
   }
 
-  .nav-ul {
+  .nav {
     display: flex;
     flex-direction: row;
   }
-  .projects-list {
+
+  .projects_list {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .who-is {
+  .illustration {
+    width: 50%;
+  }
+
+  .about_content {
     display: flex;
+  }
+
+  .about_text {
+    margin-left: 25px;
+  }
+
+  .illustration {
+    margin-right: 25px;
   }
 }
