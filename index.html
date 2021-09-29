@@ -7,21 +7,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio page for Janne Ringdal - frond end developer student" />
   <title>Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/index.css">
   <script src="https://kit.fontawesome.com/b83f6c7ccb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Port</li>
+  <header class="header-sticky">
+    <a href="index.html"><img class="logo" src="" alt="Janne logo"></a>
+    <nav class="header-nav">
+      <button class="hamburger-button hamburger-open" tabindex="0" id="hamburger" aria-label="hamburger menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-ul">
+        <li class="nav-link"> <a href="index.html" class="active">Home</a></li>
+        <li class="nav-link"> <a href="portfolio.html">Portfolio</a></li>
+        <li class="nav-link"> <a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-
   </header>
-  <script src="js/script.js"></script>
+  <main>
+    <img src="images/homeimg.jpg" alt="Girl on computer developing" class="home-hero">
+
+  </main>
+  <footer>
+    <div class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-copyright">
+      <p>©Copyright 2021 Janne Ringdal</p>
+    </div>
+  </footer>
+  <script src="js/lib/hamburgerMenu.js"></script>
+  <script type="module" src="js/script.js"></script>
 </body>
 
 </html>

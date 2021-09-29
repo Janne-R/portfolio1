@@ -1,0 +1,48 @@
+.header-sticky {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.hamburger-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.fa-bars {
+  font-size: x-large;
+}
+
+.nav-ul {
+  display: none;
+}
+
+.nav-ul.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  background-color: white;
+  width: 100%;
+  margin: 0;
+}
+
+.nav-link {
+  list-style-type: none;
+  padding: 12px;
+}
+
+.nav-link a {
+  text-decoration-line: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.current {
+  text-decoration: underline !important;
+}
