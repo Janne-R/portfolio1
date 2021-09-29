@@ -11,7 +11,9 @@
   .projects_content,
   .hero,
   .about_content,
-  .contact_content {
+  .contact_content,
+  .updates,
+  .contact_form {
     max-width: 1000px;
     margin: auto;
   }
@@ -52,5 +54,9 @@
 
   .illustration {
     margin-right: 25px;
+  }
+
+  .deployd {
+    display: block;
   }
 }

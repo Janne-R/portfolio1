@@ -70,14 +70,25 @@ h4 {
   text-transform: uppercase;
 }
 
-.current {
-  text-decoration: underline !important;
+.active {
+  font-weight: bolder;
+}
+
+.hero_img {
+  object-fit: cover;
+  width: 100vw;
+}
+
+.projects {
+  background-color: var(--color-light);
 }
 
 .hero_content,
 .projects_content,
 .about_content,
-.contact_content {
+.contact_content,
+.updates,
+.contact_form {
   padding: 25px 10px;
 }
 
@@ -89,19 +100,26 @@ h4 {
   width: 100px;
   text-transform: uppercase;
   display: flex;
-  align-items: center;
+  justify-content: center;
   cursor: pointer;
   margin: 35px 0;
   color: black;
   font-weight: bolder;
   font-size: small;
-  display: flex;
-  justify-content: center;
+}
+
+.button_cta:enabled {
+  background-color: var(--color-dark);
+  color: black;
 }
 
 .button_cta:hover {
   border: 2px solid var(--color-dark);
   background-color: var(--color-medium);
+}
+
+.button_cta:disabled {
+  background: lightgray;
 }
 
 a {

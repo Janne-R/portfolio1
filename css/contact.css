@@ -1,0 +1,29 @@
+input,
+textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.formMessage {
+  background: green;
+  color: var(--color-white);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
