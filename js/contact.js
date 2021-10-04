@@ -77,3 +77,13 @@ fullName.addEventListener("keyup", validateForm);
 email.addEventListener("keyup", validateForm);
 subject.addEventListener("keyup", validateForm);
 message.addEventListener("keyup", validateForm);
+
+function submitForm(event) {
+  event.preventDefault();
+  messageContainer.innerHTML = '<div class="formMessage">Your message has been sent</div>';
+  form.reset();
+  button.disabled = true;
+}
+
+form.addEventListener("submit", submitForm);
+
