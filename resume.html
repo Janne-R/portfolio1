@@ -8,7 +8,7 @@
   <meta name="description" content="Portfolio page for Janne Ringdal - frond end developer student" />
   <title>Portfolio</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/rainydays.css">
+  <link rel="stylesheet" href="css/resume.css">
   <link rel="stylesheet" href="css/media.css">
   <script src="https://kit.fontawesome.com/b83f6c7ccb.js" crossorigin="anonymous"></script>
 </head>
@@ -22,37 +22,47 @@
           <i class="fas fa-bars"></i>
         </button>
         <ul class="nav">
-          <li class="nav_link"> <a href="index.html" class="active">Home</a></li>
+          <li class="nav_link"> <a href="index.html">Home</a></li>
           <li class="nav_link"> <a href="portfolio.html">Portfolio</a></li>
-          <li class="nav_link"> <a href="contact.html">Contact</a></li>
+          <li class="nav_link"> <a href="resume.html" class="active">Resume</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    <section class="hero">
-      <img src="images/lady-yellow-rain.png" alt="Girl on computer developing" class="hero_img">
-      <div class="hero_content">
-        <h1>Rainydays</h1>
-        <p>Rainydays was my first attempt at a webpage. Rainydays was apart of our HTML and CSS Course assignment. This
-          page was originally made with only HTML and CSS.</p>
-        <p>As a part of the Course assignment in content management systems we updated this project using WordPress REST
-          API to manage the products for this website. </p>
+    <section class="resume">
+      <div class="resume_intro">
+        <h2>Resume</h2>
+        <img class="profileImg" src="images/janneImg.png" alt="Profile images">
       </div>
-    </section>
-    <section class="projects">
-      <div class="projects_content deployd">
-        <h2>Site deployd on Netlify</h2>
-        <p></p>
-        <a href="https://nostalgic-lewin-36004d.netlify.app/" class="button_cta">Visit site</a>
-      </div>
-      <div class="projects_content deployd">
-        <h2>GitHub repo</h2>
-        <p></p>
-        <a href="https://github.com/Janne-R/rainydays" class="button_cta">Visit site</a>
-      </div>
-    </section>
+      <h3>Contact info:</h3>
+      <ul>
 
+        <li>Name: Janne Ringdal</li>
+        <li>Mail: <a href="mailto:janneringdal@gmail.com">Janne Ringdal</a></li>
+        <li>Phone: +47 412 09 616</li>
+      </ul>
+      <h3>Education:</h3>
+      <ul>
+
+        <li>2008 - 2011: Bachelor of marketing, Kristiania University College.</li>
+        <li>2020 - ongoing: Higher Professional Degree of Front-end Development, Noroff.</li>
+      </ul>
+      <h3>Work experience:</h3>
+      <ul>
+
+        <li>2016 - 2020: Sales and marketing manager, Akasia AS.</li>
+        <li>2015 - 2016: Account manager consultant, Bergens Tidende.</li>
+        <li>2012 - 2015: Sales and customer consultant, Bergens Tidende.</li>
+      </ul>
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Basic JavaScript</li>
+        <li>Basic Design, Adobe XD</li>
+      </ul>
+    </section>
   </main>
   <footer>
     <div class="footer_nav">
@@ -65,7 +75,7 @@
     </div>
   </footer>
   <script src="js/lib/hamburgerMenu.js"></script>
-  <script type="module" src="js/script.js"></script>
+  <script type="module" src="js/contact.js"></script>
 </body>
 
 </html>

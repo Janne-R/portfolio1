@@ -1,0 +1,9 @@
+.resume_intro {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.profileImg {
+  height: 250px;
+}
